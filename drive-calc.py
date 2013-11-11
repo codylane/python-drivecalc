@@ -6,11 +6,11 @@ from optparse import OptionError
 
 conversion_table = {
     'b' : 1,
-    'k' : 1024,
-    'm' : 1024 ** 2,
-    'g' : 1024 ** 3,
-    't' : 1024 ** 4,
-    'e' : 1024 ** 5
+    'k' : 1000,
+    'm' : 1000 ** 2,
+    'g' : 1000 ** 3,
+    't' : 1000 ** 4,
+    'e' : 1000 ** 5
 }
 
 def to_bytes(size):
